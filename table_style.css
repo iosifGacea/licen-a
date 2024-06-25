@@ -1,0 +1,18 @@
+table{
+max-width: 400px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse:collapse;
+  }
+
+  table thead th{
+    background-color: aqua;
+    color: black;
+    align-self:flex-start;
+  }
+
+  .c{
+    text-align: start;
+  }

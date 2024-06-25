@@ -1,0 +1,139 @@
+/*CSS Reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html{
+    background-color: rgb(226,229,234);
+    background-image: url("colleges.png");
+    background-repeat: no-repeat;
+    background-position: 15rem;
+    background-attachment: fixed;
+  }
+
+  .log_in-form{
+    padding-top: 2rem;
+  }
+
+  .test{
+    background-color: rgb(226,229,234);
+    background-image: url("colleges0.png");
+    background-repeat: no-repeat;
+    background-position: 15rem;
+    background-attachment: fixed;
+  }
+
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: darkolivegreen;
+  padding-left: 5%;
+  line-height: 2rem;
+}
+
+h4{
+  display: inline;
+}
+
+.star{
+  font-size: 0.75rem;
+}
+
+.example{
+  width:30%;
+  height:30%;
+  border: black solid;
+}
+
+div{
+  margin-top: 30px;
+  margin-bottom: 3px;
+}
+
+a{
+  text-decoration: none;
+  margin-left: 1.6rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.form-submit-button {
+  background: #0066A2;
+  color: white;
+  height: 30px;
+  width: 70px;
+  font: inherit;
+  margin-top: 1.9rem;
+}
+
+.container{
+  display: grid;
+  place-items: center;
+  z-index: 9;
+}
+  
+.dot{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: black;
+  margin-top: 4px;
+}
+  
+.three_dots{
+  cursor: pointer;
+  position: fixed;
+  top: 0px;
+  right: 5px;
+}
+  
+.my_frame{
+  display: none;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}
+  
+.my_frame .info{
+  font-size: 1rem;
+  color: antiquewhite;
+  border-bottom: 1px solid white;
+  cursor: pointer;
+  padding-bottom: 15px;
+  margin-top: 0;
+}
+  
+.my_frame .info:hover{
+  background-color: grey;
+}
+  
+.my_frame .info span{
+  margin: 10px;
+}
+  
+.style{
+  width: auto;
+  height: auto;
+  background-color: rebeccapurple;
+  border-radius: 10px;
+}
+
+.wrong_answer{
+  color: red;
+}
+
+.B{
+  color:brown;
+}
+
+.Cluj{
+  color: darkorange;
+}
+
+.legend{
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+  background-color: aliceblue;
+  border: 1px solid black;
+}
